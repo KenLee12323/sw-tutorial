@@ -1,0 +1,105 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/Program Files/LLVM/bin/clang-cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+clang-cl: error: unable to execute command: program not executable
+clang-cl: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/Program Files/LLVM/bin/clang-cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+clang-cl: error: unable to execute command: program not executable
+clang-cl: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: c:/Users/Who Fucking Care/Desktop/sw-tutorial/assignment1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/Microsoft Visual Studio/2019/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" "cmTC_18e1b"
+[1/2] Building C object CMakeFiles\cmTC_18e1b.dir\testCCompiler.c.obj
+[2/2] Linking C executable cmTC_18e1b.exe
+FAILED: cmTC_18e1b.exe 
+cmd.exe /C "cd . && "C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_18e1b.dir --manifests  -- "C:\PROGRA~2\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.22.27905\bin\Hostx64\x64\link.exe" /nologo CMakeFiles\cmTC_18e1b.dir\testCCompiler.c.obj  /out:cmTC_18e1b.exe /implib:cmTC_18e1b.lib /pdb:cmTC_18e1b.pdb /version:0.0  /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+LINK Pass 1: command "C:\PROGRA~2\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.22.27905\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_18e1b.dir\testCCompiler.c.obj /out:cmTC_18e1b.exe /implib:cmTC_18e1b.lib /pdb:cmTC_18e1b.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_18e1b.dir/intermediate.manifest CMakeFiles\cmTC_18e1b.dir/manifest.res" failed (exit code 1104) with the following output:
+LINK : fatal error LNK1104: cannot open file 'ucrtd.lib'
+ninja: build stopped: subcommand failed.
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/Program Files/LLVM/bin/clang-cl.exe 
+Build flags: /DWIN32;/D_WINDOWS;/W3
+Id flags:  
+
+The output was:
+1
+clang-cl: error: unable to execute command: program not executable
+clang-cl: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/Program Files/LLVM/bin/clang-cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+clang-cl: error: unable to execute command: program not executable
+clang-cl: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: c:/Users/Who Fucking Care/Desktop/sw-tutorial/assignment1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/Microsoft Visual Studio/2019/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" "cmTC_525d3"
+[1/2] Building C object CMakeFiles\cmTC_525d3.dir\testCCompiler.c.obj
+[2/2] Linking C executable cmTC_525d3.exe
+FAILED: cmTC_525d3.exe 
+cmd.exe /C "cd . && "C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_525d3.dir --manifests  -- "C:\PROGRA~2\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.22.27905\bin\Hostx64\x64\link.exe" /nologo CMakeFiles\cmTC_525d3.dir\testCCompiler.c.obj  /out:cmTC_525d3.exe /implib:cmTC_525d3.lib /pdb:cmTC_525d3.pdb /version:0.0  /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+LINK Pass 1: command "C:\PROGRA~2\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.22.27905\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_525d3.dir\testCCompiler.c.obj /out:cmTC_525d3.exe /implib:cmTC_525d3.lib /pdb:cmTC_525d3.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_525d3.dir/intermediate.manifest CMakeFiles\cmTC_525d3.dir/manifest.res" failed (exit code 1104) with the following output:
+LINK : fatal error LNK1104: cannot open file 'ucrtd.lib'
+ninja: build stopped: subcommand failed.
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/Program Files/LLVM/bin/clang-cl.exe 
+Build flags: /DWIN32;/D_WINDOWS;/W3
+Id flags:  
+
+The output was:
+1
+clang-cl: error: unable to execute command: program not executable
+clang-cl: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/Program Files/LLVM/bin/clang-cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+clang-cl: error: unable to execute command: program not executable
+clang-cl: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: c:/Users/Who Fucking Care/Desktop/sw-tutorial/assignment1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/Microsoft Visual Studio/2019/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" "cmTC_3ccb0"
+[1/2] Building C object CMakeFiles\cmTC_3ccb0.dir\testCCompiler.c.obj
+[2/2] Linking C executable cmTC_3ccb0.exe
+FAILED: cmTC_3ccb0.exe 
+cmd.exe /C "cd . && "C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_3ccb0.dir --manifests  -- "C:\PROGRA~2\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.22.27905\bin\Hostx64\x64\link.exe" /nologo CMakeFiles\cmTC_3ccb0.dir\testCCompiler.c.obj  /out:cmTC_3ccb0.exe /implib:cmTC_3ccb0.lib /pdb:cmTC_3ccb0.pdb /version:0.0  /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+LINK Pass 1: command "C:\PROGRA~2\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.22.27905\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_3ccb0.dir\testCCompiler.c.obj /out:cmTC_3ccb0.exe /implib:cmTC_3ccb0.lib /pdb:cmTC_3ccb0.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_3ccb0.dir/intermediate.manifest CMakeFiles\cmTC_3ccb0.dir/manifest.res" failed (exit code 1104) with the following output:
+LINK : fatal error LNK1104: cannot open file 'ucrtd.lib'
+ninja: build stopped: subcommand failed.
+
+
